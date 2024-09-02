@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sample Task",
+            "type": "process",
+            "command": "echo",
+            "args": [
+                "This is a task output"
+            ],
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "inputText",
+            "type": "promptString",
+            "description": "Enter your text"
+        }
+    ],
+    "outputs": [
+        {
+            "id": "outputText",
+            "type": "string",
+            "description": "Output text will be shown here"
+        }
+    ]
+}
